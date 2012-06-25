@@ -1,0 +1,377 @@
+body {
+	background: #fff url(../images/dots.jpg) 0 0 repeat-x;
+	color: #343434;
+	text-align: center;
+	font-size: 12px;
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {font-weight: normal; font-family: 'Wire One', sans-serif;}
+
+h1 {font-size: 48px;}
+h2 {font-size: 36px;}
+h3 {font-size: 30px;}
+h4 {font-size: 24px;}
+h5 {font-size: 18px;}
+
+a:link, a:visited {text-decoration: none;}
+a:hover, a:focus {color: #b20000;}
+
+strong, th { font-weight: bold; }
+
+.red {color: #b20000;}
+
+.wrapper {
+	width: 941px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+header {
+	padding: 35px 0 0 0;
+}
+
+	header h1, header h1 a {
+		font-weight: normal;
+		text-decoration: none;
+		color: #343434;
+		font-family: 'Wire One', sans-serif;
+		font-size: 72px;
+		float: left;
+		margin: 0 0 0 10px;
+	}
+	
+	.headerSocial {
+		float: right;
+		padding: 42px 0 0 0;
+	}
+	
+		.headerSocial img {margin: 0 0 0 5px;}
+	
+	nav {
+		border-top: 1px dotted #343434;
+		margin: 35px 0 0 0;
+		clear: both;
+	}
+		
+		nav li {float: left;}
+	
+			nav li a {
+				color: #343434;
+				text-decoration: none;
+				font-size: 36px;
+				padding: 25px 20px;
+				display: block;
+				font-family: 'Wire One', sans-serif;
+			}
+			
+				nav li a:hover, li.current a {
+					color: #fff;
+					background: #343434;
+				}
+
+.pageBaner {
+	background: url(../images/dots.jpg) bottom left repeat-x;
+	height: 11px;
+}
+
+.baner {
+	position: relative;
+	padding: 0 0 11px 0;
+	background: url(../images/dots.jpg) bottom left repeat-x;
+}
+
+	.baner .caption {
+		position: absolute;
+		left: 45px;
+		background: url(../images/fadeBg.png) 0 0;
+		bottom: 45px;
+		width: 300px;
+		color: #f9f9f9;
+	}
+
+		.baner .caption p {padding: 0 15px 15px 15px;}
+		
+		.baner .caption h1,
+		.baner .caption h2,
+		.baner .caption h3,
+		.baner .caption h4,
+		.baner .caption h5 {padding: 15px 15px 10px 15px;}
+
+.motto h1,
+.motto h2,
+.motto h3 {
+	text-align: center; 
+	padding: 25px 25px 20px 25px; 
+	border-bottom: 1px dotted #343434; 
+	font-family: 'Wire One', sans-serif;
+}
+
+	.motto span {color: #b20000;}
+
+.breadcrumbs {
+	padding: 10px 20px;
+	font-size: 10px;
+	color: #888;
+	border-bottom: 1px dotted #343434;
+}
+
+	.breadcrumbs a {color: #888;}
+		.breadcrumbs a:hover {color: #b20000;}
+
+h1.pageTitle {font-size: 60px; padding: 0 0 20px 0; margin: 0;}
+	
+article {
+	float: left;
+	width: 660px;
+	padding: 20px 0 0 0;
+}
+
+	article h1, article h2, article h3 {margin: 0 0 15px 0;} 
+	article h4, article h5, article h6 {margin: 0 0 10px 0;} 
+
+	article a {color: #b20000; border-bottom: 1px dotted #b20000;}
+		article a:hover {color: #888; border-bottom: 1px dotted #888;}
+		
+	article p {line-height: 18px; margin: 0 0 15px 0;}
+
+	article ul, article ol {margin: 0 0 15px 20px;}
+	article ul li, article ol li {margin: 2px 0 2px 5px;}
+	
+	article ul {list-style: circle;}
+	article ol {list-style-type: decimal;}
+
+		article ul ul, 
+		article ol ol,
+		article ul ol, 
+		article ol ul {margin: 2px 0 2px 15px;}
+
+	article hr {
+		margin: 5px 0 15px 0;
+		border: 0;
+		color: #999;
+		background-color: #999;
+		height: 1px;
+		width: 100%;
+	}
+	
+	article blockquote {
+		padding: 20px 20px 20px 45px;
+		font-style: italic;
+		line-height: 18px;
+		background: #f4f4f4 url(../images/quote.png) 16px 20px no-repeat;
+		color: #888;
+		margin: 5px 0 15px 0;
+	}
+	
+	article pre, article code {
+  		white-space: pre;
+  		white-space: pre-wrap; 
+  		white-space: pre-line; 
+  		word-wrap: break-word;
+  		padding: 15px 20px 15px 20px;
+  		font-family: monospace;
+  		line-height: 17px;
+  		margin: 5px 0 15px 0;
+  		border: 1px dotted #888;
+  		color: #888;
+	}
+
+	article table tr th {
+		padding: 10px;
+		background: #f4f4f4;
+		border: 1px dotted #888;
+		color: #888;
+	}
+	
+		article table td {
+			vertical-align: top;
+			padding: 10px;
+			border: 1px dotted #888;
+		}
+
+/* fullPage */
+
+article.fullPage {
+	width: 941px;
+}
+
+/* frontNews */
+
+aside.frontRight {padding: 20px 0 0 0;}
+
+	aside.frontRight h1, aside.frontRight h2, aside.frontRight h3 {
+		border-bottom: 0px solid #fff;
+		margin: 0;
+		padding: 0 0 20px 0;
+	}
+
+/* newsPage */
+
+.nm_post {padding: 0 0 20px 0;}
+		
+	.nm_post_meta {color: #888;}
+		.nm_post_meta a {color: #888; border-bottom: 0px solid #fff;}
+			.nm_post_meta a:hover {color: #343434;}
+
+/* newsSidebar */
+
+aside.news {
+	padding: 100px 0 0 0;
+}
+
+	aside.news h1,
+	aside.news h2,
+	aside.news h3,
+	aside.news h4,
+	aside.news h5 {border-bottom: 0px solid #fff; margin: 0 0 5px 0;}
+
+	aside.news ul, .frontRight ul {margin: 0 0 25px 0;}
+		aside.news ul li, .frontRight ul li {
+			padding: 5px  0 5px 16px;
+			border-bottom: 1px dotted #888;
+			background: url(../images/liNews.jpg) 0 11px no-repeat;	
+		}
+			aside.news a {color: #888;}
+				aside.news a:hover {color: #b20000;}
+
+/* aside */
+
+aside {
+	float: right;
+	width: 230px;
+	padding: 34px 0 0 0;
+}
+	
+		aside .sidebar div, .frontRight div {margin: 0 0 25px 0;}
+		
+			aside .sidebar p, .frontRight p {margin: 0 0 10px 0;}
+			
+			aside h1,
+			aside h2,
+			aside h3,
+			aside h4,
+			aside h5 {
+				border-bottom: 1px dotted #343434;
+				margin: 0 0 10px 0;
+			}
+			
+			aside .sidebar a, .frontRight a {color: #b20000;}
+				aside .sidebar a:hover, .frontRight a:hover {
+					color: #888;
+					text-decoration: underline;
+				}
+				
+			aside .sidebar ul {
+				margin: 0 0 15px 15px;
+				list-style: circle;
+				padding: 0;
+			}
+			
+			aside .sidebar ol {
+				margin: 0 0 15px 19px;
+				list-style: decimal;
+				padding: 0;
+			}
+			
+				aside .sidebar ul li, aside .sidebar ol li {
+					line-height: 18px;
+				}
+
+/* leftContact */
+
+article.contactLeft {
+	width: 500px;
+	float: left;
+}
+
+aside.contactRight {
+	width: 360px;
+	float: right;
+	padding: 7px 0 7px 40px;
+	border-left: 1px dotted #888;
+	margin: 96px 0 0 0
+}
+
+	aside.contactRight form {}
+	
+		aside.contactRight form .label {
+			padding: 0 0 3px 1px;
+		}
+		
+			aside.contactRight form .label strong {
+				color: #b20000 !important;
+				padding: 0 0 0 2px;
+			}
+			
+			aside.contactRight form .label span {
+				padding: 0 0 0 2px;
+				font-size: 11px !important;
+				color: #b20000 !important;
+			}
+		
+		aside.contactRight form input, aside.contactRight form textarea {
+			padding: 10px;
+			width: 290px;
+			border: 0px solid #fff;
+			margin: 0 0 5px 0;
+			background: #e6e6e6;
+			color: #666;
+			font-size: 12px;
+			outline: none;
+			font-family: Tahoma, Arial, Helvetica, sans-serif
+		}
+		
+		aside.contactRight form textarea {
+			height: 80px;
+			line-height: 18px;
+		}
+		
+		aside.contactRight form .submit {
+			padding: 5px 0;
+			width: 90px;
+			margin: 5px 0 0 0;
+			background: #fff;
+			border: 1px dotted #888;
+			cursor: pointer;
+		}
+			
+			aside.contactRight form .submit:hover {
+				color: #fff;
+				background: #343434;
+			}
+
+/* footer */
+
+footer {
+	margin: 45px 0 30px 0;
+	padding: 20px 0 0 0;
+	background: url(../images/dots.jpg) 0 0 repeat-x;
+}
+
+	footer .left {
+		float: left;
+		width: 500px;
+		color: #777;
+		padding: 0 0 0 10px;
+		font-size: 11px;
+	}
+	
+		footer .left a {
+			color: #777;
+			border-bottom: 1px dotted #777;
+		}
+		
+			footer .left a:hover {
+				color: #343434;
+				border-bottom: 1px dotted #343434;
+			}
+		
+			
+	
+	footer .right {
+		float: right;
+		padding: 0 10px 0 0;
+	}
+	
+		footer .right img {margin: 0 0 0 2px;}

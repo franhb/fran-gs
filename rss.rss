@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Blog Fran</title>
+<link>http://fran.cloudns.org/rss.rss</link>
+<description>El blog de Fran</description>
+<lastBuildDate>Mon, 18 Jun 2012 18:45:06 +0200</lastBuildDate>
+<language>en-US</language>
+<item>
+	  <title>Programación PHP</title>
+	  <link>http://fran.cloudns.org/index.php?id=blog&amp;post=programacion-php</link>
+	  <guid>programacion-php</guid>
+	  <description>&lt;p&gt;
+	Lorem ipsum dolor sit amet, e&lt;strong&gt;st no quodsi fastidii, doming incorrupte id sed. Utroque consetetur ea ius, deleniti volutpat convenire cu quo. Sed ei po&lt;/</description>
+	  <category>php</category>
+</item>
+<item>
+	  <title>Inicio del blog</title>
+	  <link>http://fran.cloudns.org/index.php?id=blog&amp;post=inicio-del-blog</link>
+	  <guid>inicio-del-blog</guid>
+	  <description>&lt;p&gt;
+	Inicio del blogInicio del blogInicio del blogInicio del blogInicio del blogInicio del blogInicio del blogInicio del blogInicio del blogInicio del blogInicio del blogInicio del blogI</description>
+	  <category>personal</category>
+</item>
+<atom:link href="http://fran.cloudns.org/rss.rss" rel="self" type="application/rss+xml" />
+</channel>
+</rss>

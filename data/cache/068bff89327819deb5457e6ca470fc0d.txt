@@ -1,0 +1,1 @@
+{"status":"0","latest":"3.1.1","your_version":"3.1","message":"You have an old version - please upgrade"}

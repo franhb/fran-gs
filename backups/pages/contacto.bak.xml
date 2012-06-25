@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Wed, 16 May 2012 19:59:46 +0200</pubDate><title>Contacto</title><url>contacto</url><meta>contacto</meta><metad></metad><menu>Contacto</menu><menuStatus>Y</menuStatus><template>template.php</template><parent></parent><content>&amp;lt;p&amp;gt;
+	Formulario de contacto.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;
+	&amp;lt;a href=&amp;quot;http://fran.cloudns.org/enlace-interno/&amp;quot;&amp;gt;enlace-interno&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+</content><private></private><author>fran</author><menuOrder><![CDATA[3]]></menuOrder></item>
